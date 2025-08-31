@@ -1,0 +1,56 @@
+.gradientHeading {
+    background: linear-gradient(to right, #f9a8d4, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(240, 138, 255, 0.6);
+  }
+  
+  .glowCard {
+    filter: drop-shadow(0 0 20px rgba(240, 138, 255, 0.8))
+            drop-shadow(0 0 35px rgba(240, 138, 255, 0.6));
+  }
+  
+  .sectionHeading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f6cda7;
+    letter-spacing: 0.05em;
+  }
+  
+  .starDivider {
+    height: 2px;
+    width: 90px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #f9a8d4, #8b5cf6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(240, 138, 255, 0.7);
+  }
+  
+  .bookingBox {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(to right, rgba(139, 92, 246, 0.3), rgba(240, 138, 255, 0.2));
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
+    transition: 0.3s ease;
+  }
+  
+  .glowButton {
+    background: linear-gradient(to right, #f9a8d4, #8b5cf6);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px rgba(240, 138, 255, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .glowButton:hover {
+    box-shadow: 0 0 30px rgba(240, 138, 255, 1);
+    transform: scale(1.05);
+  }
+  
